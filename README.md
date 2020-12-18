@@ -34,6 +34,7 @@ they do not make sense as continuous maps)
   plt.colorbar()
   ```
 
-  Please see the [example notebook](./examples/example.ipynb) if you want to
+  Please clone this repository and run the
+  [example notebook](./examples/example.ipynb) if you want to
   try out all the colormaps. (You need
   [ipywidgets](https://ipywidgets.readthedocs.io/en/latest/) for that...)
