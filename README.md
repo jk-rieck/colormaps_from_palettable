@@ -18,6 +18,11 @@ they do not make sense as continuous maps)
 
 ## Usage
 
+  Online interactive examples can be found here:  
+  [simple example](https://colab.research.google.com/github/jk-rieck/colormaps_from_palettable/blob/main/examples/example.ipynb)  
+  and here:  
+  [more realistic example](https://colab.research.google.com/github/jk-rieck/colormaps_from_palettable/blob/main/examples/example_realistic_data.ipynb)
+
   Example of how to extract the continuous colormaps from the
   [Scientific](http://www.fabiocrameri.ch/colourmaps.php) package and use
   the `Vik` colormap. (Example requires packages [`numpy`](https://numpy.org/)
@@ -34,7 +39,7 @@ they do not make sense as continuous maps)
   plt.colorbar()
   ```
 
-  Please clone this repository and run the
-  [example notebook](./examples/example.ipynb) if you want to
+  You can also clone this repository and run the
+  [example notebook](./examples/example.ipynb) or [more realistic example notebook](./examples/example_realistic_data.ipynb) if you want to
   try out all the colormaps. (You need
   [ipywidgets](https://ipywidgets.readthedocs.io/en/latest/) for that...)
