@@ -22,7 +22,7 @@ def extract():
     import numpy as np
     packs = {}
     to_ignore = ['absolute_import', 'palette', 'utils', 'version',
-                 'cubehelix', 'wesanderson', 'tableau']
+                 'VERSION', 'cubehelix', 'wesanderson', 'tableau']
     for pack in p.__dict__.keys():
         if pack[0:2] != '__' and pack not in to_ignore:
             packs[pack] = {}
